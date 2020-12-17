@@ -76,6 +76,27 @@ Very benefitial in colleges in terms of learning and features because of interac
 
 
 
+### Screenshots
+
+![](./imgs/1.jpeg)
+
+
+![](./imgs/2.jpeg)
+
+
+![](./imgs/3.jpeg)
+
+
+![](./imgs/4.jpeg)
+
+
+![](./imgs/5.jpeg)
+
+
+![](./imgs/6.jpeg)
+
+
+
 ### Future Scope:
 
  - Alumni can login into the portal to access various features
