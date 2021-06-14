@@ -1,111 +1,194 @@
-## Major Project
+<style>
+#heading{text-shadow: 0 0 3px #0000FF, 0 0 15px #0000FF;}
 
-### Optimizing Alumni Portal
+#label,#point{
+border: 4px solid black;
+color: white;
+background-color: blue;
+}
 
+#label{width:500}
+#point{width:1000}
 
+.row {
+  display: flex;
+}
 
-### Submitted By:
-Raghu Gulati (1706493)
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+</style>
 
-Sparsh Gagneja (1706522)
+## <b id = 'heading'>Training Project Presentation</b>
 
-Tejeshwar Singh Rai (1706532)
+### Canadian Citizenship Mock Test
 
-Group: G10
-
-
-
-### Introduction
-<p style = "text-align:	justify">
-Thr alumni portal has been designed previously for our college website with the objective of projecting information of college alumni along with some informative posts by the alumni. Now our main purpose of building the project is to optimize the portal with new features like better image viewing using gallery, imporved GUI etc. the details of which are discussed further in the presentation.
-</p>
-
-
-
-### Brief Abstract:
-<p style = "text-align:	justify">
-This project will focus on optimizing the Alumni Web Portal of GNDEC, Ludhiana. The portal will keep the esteemed alumni updated about the college and its activities and will serve as a medium for communication between alumni, the college administration and current college students.
-</p>
-
-
-
-### Objectives:
-
-This project is to develop a portal for alumni with the following objectives:
-
- - To develop an online interactive platform for alumni to connect with the current college authorities
- - To provide facilities for alumni to arrange interaction in college
- - Provide online gallery to depict college activities and alumni meets
- - To create a membership form for employees that can be used for booking/accessing college infrastructure for various functions.
+<img src = './imgs/app_logo.jpeg' width='350'> 
 
 
 
-### Software Requirements: 
- - Linux/Windows Operating System
- - Drupal
- - Vani Theme
- - Html/CSS for modifying theme
- - Apache/XAMPP server for testing
- - MySQL 5.0.15
- - PHP
+## <b id = 'heading'>Submitted By:</b>
+### Raghu Gulati (URN: 1706493)
+
+### Tanisha Chhabra (URN: 1706530)
 
 
 
-### Hardware Requirement: 
- Server to upload the site with
- - Intel Processor
- - Min 4GB RAM
- - Min 256 GB disk space to store images and data
-
-
-![](./imgs/server.jpeg)
+## <b id = 'heading'>Introduction</b>
+ - The digital marketing company <b>Brand Boosters</b> in Canada is the client of <b>Auribises</b>. 
+ - This app was the requirement of that client so that it can provide online platform in covid times for the ones who want to prepare themselves for citizenship examination.
+ - The residents can learn, gain and improve their knowledge skills so that they can clear the citizenship exam.
+ - Some extra information is provided through the use of flashcards.
 
 
 
-### Benefits:
-<p style = "text-align:	justify">
-Very benefitial in colleges in terms of learning and features because of interaction arrangements between students and alumni because allumnis can share their experiences and current scenerio of industry which will not only be benefitial for students but also for college authorities.
-</p>
+## <b id = 'heading'>Product Features</b>
+The product has 
+ - An Admin Panel(backend) 
+ - Flutter Based Mobile Application (For User)
+
+
+### <b id = 'heading'> Admin Panel Features</b>
+ - Admin has access to all the user details. Admin can delete the user as per his choice.
+ - Admin can add and remove quizzes and add questions to quizzes
+ - Admin can add and remove flash cards
+ - Admin can view the results of the quizzed attempted by the users
+
+
+###  <b id = 'heading'> User Application Features</b>
 
 
 
-### Challenges
- - Inviting alumni to portal
- - Handling traffic 
- - Providing cyber security to the data and information on the portal
+## <b id = 'heading'> Objectives: </b>
+ - The basic objective of this project is to develop a mobile application with following features such as Questions bank, Test Review and Test History, Flashcards for study materials, Data Storage.
+ - To create the app to help the users for the preparation of Canadian Citizenship Test with easy access to our app directly through the  phones. 
+ - To allow the users to learn and prepare themselves for tests through material provided flash cards.
+ - To create a separate admin panel to manage the backend, add material in flashcards and quizzes and review the performance of users.
 
 
 
-### Screenshots
-
-![](./imgs/1.jpeg)
-
-
-![](./imgs/2.jpeg)
-
-
-![](./imgs/3.jpeg)
-
-
-![](./imgs/4.jpeg)
-
-
-![](./imgs/5.jpeg)
-
-
-![](./imgs/6.jpeg)
-
+## <b id = 'heading'>Technology Stack </b>
+<ol>
+<li>
+<div id = 'label'>
+<center>Back End (Admin panel)</center>
+</div>
+Angular JS,
+Firebase (Firestore)
+</li>
+<br>
+<li>
+<div id = 'label'>
+<center>Front End (User Application)</center>
+</div>
+Flutter
+</li>
+</ol>
 
 
-### Future Scope:
-
- - Alumni can login into the portal to access various features
- - Alumni can connect with their batchmates through this medium
- - Alumni can view/upload the details of their current job/occupations and can guide others
- - Alumni can guide students about their future endeavours
+### <b id = 'heading'>Angular JS</b>
+<div>
+AngularJS is a structural framework for dynamic web apps. It lets you use HTML as your template language and lets you extend HTML's syntax to express your application's components clearly and succinctly. AngularJS's data binding and dependency injection eliminate much of the code you would otherwise have to write.
+</div>
 
 
+### <b id = 'heading'>Firestore(Firebase)</b>
 
-## Thank You 
 
- 
+### <b id = 'heading'>Flutter</b>
+
+
+
+## <b id = 'heading'>Software and Hardware Requirements: </b>
+
+
+<div id = 'point'>For running the Admin panel, we only need a PC with a browser and internet facilities.</div>
+
+![](./imgs/pc.png)
+
+
+<div id = 'point'>For running the user application, we only need a mobile phone with any mobile OS(IOS or android)</div>
+
+![](./imgs/phone.png)
+
+
+
+## <b id = 'heading'>Screenshots</b>
+
+
+### <b id = 'heading'>Admin Panel</b>
+
+
+### <b id = 'heading'>User Application</b>
+
+
+<img src = './imgs/1.jpeg' width='250'>
+
+
+<img src = './imgs/2.jpeg' width='250'>
+
+
+<img src = './imgs/3.jpeg' width='250'>
+
+
+<div class="row">
+<div class="column">
+<img src="./imgs/4.jpeg" width = '250' alt="Snow">
+</div>
+<div class="column">
+<img src="./imgs/5.jpeg" width = '250' alt="Mountains">
+</div>
+</div>
+
+
+<div class="row">
+<div class="column">
+<img src="./imgs/6.jpeg" width = '250' alt="Snow">
+</div>
+<div class="column">
+<img src="./imgs/7.jpeg" width = '250' alt="Mountains">
+</div>
+</div>
+
+
+<div class="row">
+<div class="column">
+<img src="./imgs/8.jpeg" width = '250' alt="Snow">
+</div>
+<div class="column">
+<img src="./imgs/9.jpeg" width = '250' alt="Mountains">
+</div>
+</div>
+
+
+<div class="row">
+<div class="column">
+<img src="./imgs/10.jpeg" width = '250' alt="Snow">
+</div>
+<div class="column">
+<img src="./imgs/13.jpeg" width = '250' alt="Mountains">
+</div>
+</div>
+
+
+<div class="row">
+<div class="column">
+<img src="./imgs/11.jpeg" width = '250' alt="Snow">
+</div>
+<div class="column">
+<img src="./imgs/12.jpeg" width = '250' alt="Mountains">
+</div>
+</div>
+
+
+
+## <b id = 'heading'>Future Scope:</b>
+<div id = 'point'>Paid Tests will be included</div><br>
+<div id = 'point'>Profile page is under development and will start working in the next update(version)</div>
+
+
+
+<img src = './imgs/thankyou.jpg' width='750' style = 'opacity: 0.5'> 
+

@@ -12,18 +12,27 @@
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #add9e4;
+/*  background: #add9e4;
   background: -moz-radial-gradient(center, circle cover, #f7fbfc 0%, #add9e4 100%);
   background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #f7fbfc), color-stop(100%, #add9e4));
   background: -webkit-radial-gradient(center, circle cover, #f7fbfc 0%, #add9e4 100%);
   background: -o-radial-gradient(center, circle cover, #f7fbfc 0%, #add9e4 100%);
   background: -ms-radial-gradient(center, circle cover, #f7fbfc 0%, #add9e4 100%);
   background: radial-gradient(center, circle cover, #f7fbfc 0%, #add9e4 100%);
-  background-color: #f7fbfc; }
+  background-color: #f7fbfc;*/
+  background-image: url('../../imgs/bg.jpg');
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+ }
 
 .reveal {
   font-family: "Open Sans", sans-serif;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: normal;
   color: #333; }
 
@@ -59,13 +68,15 @@ body {
   letter-spacing: -0.08em;
   text-transform: uppercase;
   text-shadow: none;
-  word-wrap: break-word; }
+  word-wrap: break-word; 
+  font-size: 40px;
+}
 
 .reveal h1 {
   font-size: 3.77em; }
 
 .reveal h2 {
-  font-size: 2.11em; }
+  font-size: 2.77em; }
 
 .reveal h3 {
   font-size: 1.55em; }
