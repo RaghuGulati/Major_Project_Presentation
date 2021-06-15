@@ -98,9 +98,11 @@ AngularJS is a structural framework for dynamic web apps. It lets you use HTML a
 
 
 ### <b id = 'heading'>Firestore(Firebase)</b>
+Firebase is a platform developed by Google for creating mobile and web applications. It was originally an independent company founded in 2011. In 2014, Google acquired the platform and it is now their flagship offering for app development
 
 
 ### <b id = 'heading'>Flutter</b>
+Flutter is an open-source UI software development kit created by Google. It is used to develop cross platform applications for Android, iOS, Linux, Mac, Windows, Google Fuchsia, and the web from a single codebase. The first version of Flutter was known as "Sky" and ran on the Android operating system.
 
 
 
