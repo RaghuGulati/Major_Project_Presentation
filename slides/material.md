@@ -44,10 +44,18 @@ background-color: blue;
 
 
 
+## <b id = 'heading'> Objectives: </b>
+ - The basic objective of this project is to develop a mobile application with following features such as Questions bank, Test Review and Test History, Flashcards for study materials, Data Storage.
+ - To create the app to help the users for the preparation of Canadian Citizenship Test with easy access to our app directly through the  phones. 
+ - To allow the users to learn and prepare themselves for tests through material provided flash cards.
+ - To create a separate admin panel to manage the backend, add material in flashcards and quizzes and review the performance of users.
+
+
+
 ## <b id = 'heading'>Product Features</b>
 The product has 
- - An Admin Panel(backend) 
- - Flutter Based Mobile Application (For User)
+<div id = "point">An Admin Panel(backend)</div><br>
+<div id = "point">Flutter Based Mobile Application (For User)</div>
 
 
 ### <b id = 'heading'> Admin Panel Features</b>
@@ -58,14 +66,9 @@ The product has
 
 
 ###  <b id = 'heading'> User Application Features</b>
-
-
-
-## <b id = 'heading'> Objectives: </b>
- - The basic objective of this project is to develop a mobile application with following features such as Questions bank, Test Review and Test History, Flashcards for study materials, Data Storage.
- - To create the app to help the users for the preparation of Canadian Citizenship Test with easy access to our app directly through the  phones. 
- - To allow the users to learn and prepare themselves for tests through material provided flash cards.
- - To create a separate admin panel to manage the backend, add material in flashcards and quizzes and review the performance of users.
+ - The user is able to access and solve the available quizzes and get the review of the same.
+ - The user is be able to access the flashcards and other study material available.
+ - Users is able to maintain its profile and edit according to their needs.
 
 
 
@@ -119,6 +122,30 @@ AngularJS is a structural framework for dynamic web apps. It lets you use HTML a
 
 
 ### <b id = 'heading'>Admin Panel</b>
+
+
+<img src = './imgs/admin/1.png' width='750'>
+
+
+<img src = './imgs/admin/2.png' width='750'>
+
+
+<img src = './imgs/admin/3.png' width='750'>
+
+
+<img src = './imgs/admin/4.png' width='750'>
+
+
+<img src = './imgs/admin/5.png' width='750'>
+
+
+<img src = './imgs/admin/6.png' width='750'>
+
+
+<img src = './imgs/admin/7.png' width='750'>
+
+
+<img src = './imgs/admin/8.png' width='750'>
 
 
 ### <b id = 'heading'>User Application</b>
