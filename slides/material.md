@@ -120,6 +120,17 @@ Flutter is an open-source UI software development kit created by Google. It is u
 
 
 
+## <b id = 'heading'>DFD</b>
+
+![](./imgs/dfd.png)
+
+
+
+## <b id = 'heading'>Flowchart</b>
+<img src = './imgs/flowchart.png' width = '550'>
+
+
+
 ## <b id = 'heading'>Screenshots</b>
 
 
